@@ -1,0 +1,112 @@
+body{
+margin:0;
+font-family: "Segoe UI", cursive;
+background:#fff8f3;
+}
+
+/* TOPO */
+
+header{
+background:linear-gradient(90deg,#5c3a21,#d4af37,#ffcba4);
+padding:20px;
+text-align:center;
+}
+
+.logo{
+font-size:38px;
+font-weight:bold;
+color:white;
+}
+
+/* MENU */
+
+nav{
+background:#ffcba4;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+margin:15px;
+text-decoration:none;
+color:#5c3a21;
+font-size:18px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:white;
+background:#5c3a21;
+padding:6px 12px;
+border-radius:10px;
+}
+
+/* CONTEÚDO */
+
+.container{
+padding:40px;
+text-align:center;
+}
+
+/* PRODUTOS */
+
+.produtos{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+border-radius:15px;
+padding:15px;
+width:220px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+border:2px solid #d4af37;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+/* FORMULÁRIO */
+
+input{
+padding:8px;
+width:250px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:#5c3a21;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#d4af37;
+}
+
+/* RODAPÉ GRADIENTE */
+
+footer{
+margin-top:40px;
+padding:15px;
+text-align:center;
+color:white;
+background:linear-gradient(90deg,#5c3a21,#d4af37);
+}
+
+/* RODAPÉ TRANSPARENTE */
+
+.footer-transparente{
+background:rgba(255,255,255,0.4);
+color:#5c3a21;
+}
